@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 from DjangoUeditor.models import UEditorField 
- 
+from django.core.urlresolvers import reverse
 @python_2_unicode_compatible
 class Column(models.Model):
     name = models.CharField('栏目名称', max_length=256)
@@ -13,7 +13,9 @@ class Column(models.Model):
  
     def __str__(self):
         return self.name
- 
+
+    def get_absolute_url(self):
+        return reverse('column', args=(self.slug,))
     class Meta:
         verbose_name = '栏目'
         verbose_name_plural = '栏目'
@@ -39,7 +41,9 @@ class Article(models.Model):
     update_time = models.DateTimeField('更新时间', auto_now=True, null=True)
     def __str__(self):
         return self.title
- 
+    
+    def get_absolute_url(self):
+        return reverse('article', args=(self.slug,))
     class Meta:
         verbose_name = '教程'
         verbose_name_plural = '教程'
