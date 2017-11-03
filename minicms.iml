@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="django" name="Django">
+      <configuration>
+        <option name="rootFolder" value="$MODULE_DIR$/news" />
+        <option name="settingsModule" value="settings.py" />
+        <option name="manageScript" value="manage.py" />
+        <option name="environment" value="&lt;map/&gt;" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/templates" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/map" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/gmap" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/help" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/link" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/image" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/music" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/table" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/video" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/anchor" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/charts" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/scrawl" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/webapp" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/emotion" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/preview" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/spechars" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/template" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/wordimage" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/attachment" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/background" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/snapscreen" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/insertframe" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/dialogs/searchreplace" />
+        <option value="$MODULE_DIR$/DjangoUeditor/static/ueditor/_examples" />
+        <option value="$MODULE_DIR$/DjangoUeditor/templates" />
+      </list>
+    </option>
+  </component>
+</module>
